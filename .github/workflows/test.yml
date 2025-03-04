@@ -37,6 +37,10 @@ jobs:
 
       - name: Install dependencies
         run: |
+run: pytest -v
+
+name: Test Wielermanager Bot
+
           pip install -r requirements.txt
           pip install selenium webdriver-manager pytest
 

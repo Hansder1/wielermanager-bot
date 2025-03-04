@@ -19,7 +19,7 @@ jobs:
           pip install -r requirements.txt
           pip install selenium webdriver-manager pytest
 
-      - name: Rnnname: Test Wielermanager Bot
+      - name: Test Wielermanager Bot
 
 on: [push, pull_request]
 
